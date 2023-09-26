@@ -10,4 +10,5 @@ weight: 3
 [Full CV]({{ site.url }}/cv.pdf)
 
 I am a PhD Student in Statistics and Computer Science at Università Bocconi (Milan).
+
 Research interests: Network Analysis, Statistical Machine Learning, Bayesian Nonparametric Methods
