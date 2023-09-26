@@ -1,5 +1,5 @@
 ### Site Settings ###
-title               : portfolYOU
+title               : Ivan Golovko
 description         : >-
                       I turn coffee :coffee: into code,
                       use tabs over spaces
@@ -25,7 +25,7 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : John Doe
+  name              : Ivan Golovko
   image             : https://i.imgur.com/uyDNQnn.jpg
   behance           : your_username
 # dribbble          : your_username
@@ -75,31 +75,26 @@ analytics:
 
 ### Buy me a coffee ###
 # See https://www.buymeacoffee.com/
-buymeacoffee:
-  enabled: false
-  username: your_username
-  color: "#007bff"
-  message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
-  description: "Support me on Buy me a coffee!"
+#buymeacoffee:
+#  enabled: false
+#  username: your_username
+#  color: "#007bff"
+#  message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
+#  description: "Support me on Buy me a coffee!"
 
 
 ### Defaults for collections ###
 defaults:
   - scope:
       path: ""
-      type: "projects"
+      type: "about me"
     values:
       layout: "page"
   - scope:                                              # For Documentation Only
       path: ""                                          # For Documentation Only
-      type: "elements"                                  # For Documentation Only
+      type: "publications"                                  # For Documentation Only
     values:                                             # For Documentation Only
       layout: "element"                                 # For Documentation Only
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      comments: false                                   # Set to true to enable disqus comments
 
 
 ### Exclude from processing ###
